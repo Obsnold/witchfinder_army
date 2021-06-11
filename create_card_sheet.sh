@@ -14,9 +14,9 @@ TEMP="temp"
 FRONT_1="witch_card.png" 
 FRONT_2="witch_card.png" 
 FRONT_3="witch_card.png"
-FRONT_4="witch_card.png"
-FRONT_5="witch_card.png"
-FRONT_6="cultist_card.png"
+FRONT_4="witchfinder_card.png"
+FRONT_5="witchfinder_general_card.png"
+FRONT_6="ghost_card.png"
 FRONT_7="cultist_card.png"
 FRONT_8="cultist_card.png"
 FRONT_9="cultist_card.png"
@@ -36,8 +36,6 @@ BACK_9="card_back.png"
 #the values below are all in pixels
 CARD_WIDTH=750
 CARD_HEIGHT=1050
-CARD_X_OFFSET="-2"
-CARD_Y_OFFSET="+2"
 PAGE_WIDTH=2480
 PAGE_HEIGHT=3508
 PIXEL_DENSITY=300
@@ -69,12 +67,6 @@ convert $TEMP/back.png $TEMP/back.jpg
 convert -extent "$PAGE_WIDTH"x"$PAGE_HEIGHT" -density $PIXEL_DENSITY -colorspace RGB -gravity center -background white  $TEMP/back.jpg $TEMP/back.pdf
 
 convert -density 600 -colorspace RGB $TEMP/front.pdf $TEMP/back.pdf ./out/Witchfinder_General.pdf
-
-#montage -border 1 -bordercolor black -tile x3 -geometry "$CARD_WIDTH"x"$CARD_HEIGHT"$CARD_X_OFFSET$CARD_Y_OFFSET  $FRONT_ORDER $TEMP/front.jpg
-#montage -border 1 -bordercolor black -tile x3 -geometry "$CARD_WIDTH"x"$CARD_HEIGHT"$CARD_X_OFFSET$CARD_Y_OFFSET  $BACK_ORDER $TEMP/back.jpg
-#convert -extent "$PAGE_WIDTH"x"$PAGE_HEIGHT" -density $PIXEL_DENSITY -gravity center -background white  $TEMP/front.jpg $TEMP/front.pdf
-#convert -extent "$PAGE_WIDTH"x"$PAGE_HEIGHT" -density $PIXEL_DENSITY -gravity center -background white  $TEMP/back.jpg $TEMP/back.pdf
-#convert -density $PIXEL_DENSITY $TEMP/front.pdf $TEMP/back.pdf ./out/Witchfinder_General.pdf
 
 echo "Create tts files"
 convert +append $TEMP/$FRONT_1 $TEMP/$FRONT_2 $TEMP/$FRONT_3 $TEMP/$FRONT_4 $TEMP/$FRONT_5 $TEMP/$FRONT_6 $TEMP/$FRONT_7 $TEMP/$FRONT_8 $TEMP/$FRONT_9 out/tts_front.png
