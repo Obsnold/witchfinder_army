@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 if [ "$#" -ne 1 ]; then
     echo "Illegal number of parameters"
@@ -11,26 +11,14 @@ fi
 IN_DIR="$(realpath $1)"
 TEMP="temp"
 
-FRONT_1="witch_card.png" 
-FRONT_2="witch_card.png" 
-FRONT_3="witch_card.png"
-FRONT_4="witchfinder_card.png"
-FRONT_5="witchfinder_general_card.png"
-FRONT_6="ghost_card.png"
-FRONT_7="cultist_card.png"
-FRONT_8="cultist_card.png"
-FRONT_9="cultist_card.png"
+declare -a PAGES=(  "witch_card.png witch_card.png witch_card.png witch_card.png witchfinder_general_card.png cultist_card.png cultist_card.png cultist_card.png cultist_card.png" 
+                    "witch_card.png cultist_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png" 
+                    "witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
+                    "ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
+                    "ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
+                )
 
-BACK_1="card_back.png" 
-BACK_2="card_back.png" 
-BACK_3="card_back.png" 
-BACK_4="card_back.png" 
-BACK_5="card_back.png" 
-BACK_6="card_back.png" 
-BACK_7="card_back.png" 
-BACK_8="card_back.png" 
-BACK_9="card_back.png" 
-
+BACK="card_back.png" 
 
 
 #the values below are all in pixels
@@ -51,27 +39,50 @@ cp -r $IN_DIR/* $TEMP
 find $TEMP -name "*.svg"  -exec sh -c 'inkscape $1 --export-png=${1%.svg}.png' _ {} \;
 #find $TEMP -name "*.png"  -exec sh -c 'convert -resize 750x1050! $1 ${1%}' _ {} \;
 
-echo "use ImageMagick to paste everything together"
-convert +append $TEMP/$FRONT_1 $TEMP/$FRONT_2 $TEMP/$FRONT_3 $TEMP/row_1.png
-convert +append $TEMP/$FRONT_4 $TEMP/$FRONT_5 $TEMP/$FRONT_6 $TEMP/row_2.png
-convert +append $TEMP/$FRONT_7 $TEMP/$FRONT_8 $TEMP/$FRONT_9 $TEMP/row_3.png
-convert -append $TEMP/row_1.png $TEMP/row_2.png $TEMP/row_3.png $TEMP/front.png
-convert $TEMP/front.png $TEMP/front.jpg
-convert -extent "$PAGE_WIDTH"x"$PAGE_HEIGHT" -density $PIXEL_DENSITY -colorspace RGB -gravity center -background white  $TEMP/front.jpg $TEMP/front.pdf
+RES=1
 
-convert +append $TEMP/$BACK_3 $TEMP/$BACK_2 $TEMP/$BACK_1 $TEMP/row_1.png
-convert +append $TEMP/$BACK_6 $TEMP/$BACK_5 $TEMP/$BACK_4 $TEMP/row_2.png
-convert +append $TEMP/$BACK_9 $TEMP/$BACK_8 $TEMP/$BACK_7 $TEMP/row_3.png
-convert -append $TEMP/row_1.png $TEMP/row_2.png $TEMP/row_3.png $TEMP/back.png
-convert $TEMP/back.png $TEMP/back.jpg
-convert -extent "$PAGE_WIDTH"x"$PAGE_HEIGHT" -density $PIXEL_DENSITY -colorspace RGB -gravity center -background white  $TEMP/back.jpg $TEMP/back.pdf
+for PAGE in "${PAGES[@]}"
+do
+    #get each card
+    FRONT_1=$(echo $PAGE | cut -d' ' -f1)
+    FRONT_2=$(echo $PAGE | cut -d' ' -f2)
+    FRONT_3=$(echo $PAGE | cut -d' ' -f3)
+    FRONT_4=$(echo $PAGE | cut -d' ' -f4)
+    FRONT_5=$(echo $PAGE | cut -d' ' -f5)
+    FRONT_6=$(echo $PAGE | cut -d' ' -f6)
+    FRONT_7=$(echo $PAGE | cut -d' ' -f7)
+    FRONT_8=$(echo $PAGE | cut -d' ' -f8)
+    FRONT_9=$(echo $PAGE | cut -d' ' -f9)
 
-convert -density 600 -colorspace RGB $TEMP/front.pdf $TEMP/back.pdf ./out/Witchfinder_General.pdf
+    echo "-------------------"
+    echo "Process the following page:"
+    echo $PAGE
+    echo "-------------------"
+    convert +append $TEMP/$FRONT_1 $TEMP/$FRONT_2 $TEMP/$FRONT_3 $TEMP/row_1.png
+    convert +append $TEMP/$FRONT_4 $TEMP/$FRONT_5 $TEMP/$FRONT_6 $TEMP/row_2.png
+    convert +append $TEMP/$FRONT_7 $TEMP/$FRONT_8 $TEMP/$FRONT_9 $TEMP/row_3.png
+    convert -append $TEMP/row_1.png $TEMP/row_2.png $TEMP/row_3.png $TEMP/front.png
+    convert $TEMP/front.png $TEMP/front.jpg
+    convert -extent "$PAGE_WIDTH"x"$PAGE_HEIGHT" -density $PIXEL_DENSITY -colorspace RGB -gravity center -background white  $TEMP/front.jpg $TEMP/out_$(printf "%.2d" $RES).pdf
 
-echo "Create tts files"
-convert +append $TEMP/$FRONT_1 $TEMP/$FRONT_2 $TEMP/$FRONT_3 $TEMP/$FRONT_4 $TEMP/$FRONT_5 $TEMP/$FRONT_6 $TEMP/$FRONT_7 $TEMP/$FRONT_8 $TEMP/$FRONT_9 out/tts_front.png
-convert +append $TEMP/$BACK_1 $TEMP/$BACK_2 $TEMP/$BACK_3 $TEMP/$BACK_4 $TEMP/$BACK_5 $TEMP/$BACK_6 $TEMP/$BACK_7 $TEMP/$BACK_8 $TEMP/$BACK_9 out/tts_back.png
-convert out/tts_front.png -resize 6588x2076 -background white -gravity North -extent 6588x2076 out/tts_front.jpg
-convert out/tts_back.png -resize 6588x2076 -background white -gravity North -extent 6588x2076 out/tts_back.jpg
+    RES=$((RES+1))
+
+    convert +append $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK $TEMP/row_1.png
+    convert +append $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK $TEMP/row_2.png
+    convert +append $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK $TEMP/row_3.png
+    convert -append $TEMP/row_1.png $TEMP/row_2.png $TEMP/row_3.png $TEMP/back.png
+    convert $TEMP/back.png $TEMP/back.jpg
+    convert -extent "$PAGE_WIDTH"x"$PAGE_HEIGHT" -density $PIXEL_DENSITY -colorspace RGB -gravity center -background white  $TEMP/back.jpg $TEMP/out_$(printf "%.2d" $RES).pdf
+
+    RES=$((RES+1))
+done
+
+convert -density 600 -colorspace RGB $TEMP/out_*.pdf ./out/Witchfinder_General.pdf
+
+#echo "Create tts files"
+#convert +append $TEMP/$FRONT_1 $TEMP/$FRONT_2 $TEMP/$FRONT_3 $TEMP/$FRONT_4 $TEMP/$FRONT_5 $TEMP/$FRONT_6 $TEMP/$FRONT_7 $TEMP/$FRONT_8 $TEMP/$FRONT_9 out/tts_front.jpg   
+#convert +append $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK $TEMP/$BACK out/tts_back.jpg
+#convert out/tts_front.jpg -resize 6588x2076 -background white -gravity North -extent 6588x2076 out/tts_front.jpg
+#convert out/tts_back.jpg -resize 6588x2076 -background white -gravity North -extent 6588x2076 out/tts_back.jpg
 
 rm -rf $TEMP
