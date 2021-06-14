@@ -18,7 +18,7 @@ declare -a PAGES=(  "witch_card.png witch_card.png witch_card.png witch_card.png
                     "ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
                 )
 
-BACK="card_back.png" 
+BACK="back_card.png" 
 
 
 #the values below are all in pixels
@@ -36,13 +36,18 @@ mkdir out
 mkdir $TEMP
 
 cp -r $IN_DIR/* $TEMP
-find $TEMP -name "*.svg"  -exec sh -c 'inkscape $1 --export-png=${1%.svg}.png' _ {} \;
+find $TEMP -name "*card.svg"  -exec sh -c 'inkscape $1 --export-png=${1%.svg}.png' _ {} \;
 #find $TEMP -name "*.png"  -exec sh -c 'convert -resize 750x1050! $1 ${1%}' _ {} \;
 
 RES=1
 
 for PAGE in "${PAGES[@]}"
 do
+
+    echo "-------------------"
+    echo "Process page: $RES"
+    echo $PAGE
+
     #get each card
     FRONT_1=$(echo $PAGE | cut -d' ' -f1)
     FRONT_2=$(echo $PAGE | cut -d' ' -f2)
@@ -54,10 +59,6 @@ do
     FRONT_8=$(echo $PAGE | cut -d' ' -f8)
     FRONT_9=$(echo $PAGE | cut -d' ' -f9)
 
-    echo "-------------------"
-    echo "Process the following page:"
-    echo $PAGE
-    echo "-------------------"
     convert +append $TEMP/$FRONT_1 $TEMP/$FRONT_2 $TEMP/$FRONT_3 $TEMP/row_1.png
     convert +append $TEMP/$FRONT_4 $TEMP/$FRONT_5 $TEMP/$FRONT_6 $TEMP/row_2.png
     convert +append $TEMP/$FRONT_7 $TEMP/$FRONT_8 $TEMP/$FRONT_9 $TEMP/row_3.png
@@ -75,6 +76,7 @@ do
     convert -extent "$PAGE_WIDTH"x"$PAGE_HEIGHT" -density $PIXEL_DENSITY -colorspace RGB -gravity center -background white  $TEMP/back.jpg $TEMP/out_$(printf "%.2d" $RES).pdf
 
     RES=$((RES+1))
+    echo "-------------------"
 done
 
 convert -density 600 -colorspace RGB $TEMP/out_*.pdf ./out/Witchfinder_General.pdf
