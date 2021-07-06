@@ -150,16 +150,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1"
-     inkscape:cx="184.51493"
-     inkscape:cy="215.56116"
+     inkscape:cx="283.21428"
+     inkscape:cy="562.84505"
      inkscape:document-units="mm"
-     inkscape:current-layer="g14645"
+     inkscape:current-layer="layer4"
      showgrid="false"
      units="mm"
-     inkscape:window-width="1848"
-     inkscape:window-height="1016"
-     inkscape:window-x="72"
-     inkscape:window-y="27"
+     inkscape:window-width="2560"
+     inkscape:window-height="1403"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
@@ -169,7 +169,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -204,34 +204,56 @@
      inkscape:label="text">
     <path
        inkscape:connector-curvature="0"
-       style="fill:#000000;stroke-width:0.40125179"
-       d="m 27.584852,249.1266 c 0,-0.52811 -3.231328,-0.48944 61.792741,-0.7395 24.606727,-0.0946 54.427997,-0.28241 66.269407,-0.41728 14.92523,-0.16999 21.61017,-0.11526 21.7916,0.17826 0.15452,0.25005 -0.11771,0.42542 -0.66477,0.42821 -15.67352,0.0804 -43.52579,0.45633 -44.86502,0.60563 -0.99231,0.11071 -9.38788,0.19878 -18.65678,0.19588 -21.843609,-0.006 -47.916821,0.0456 -68.914908,0.13877 -12.456817,0.0552 -16.75227,-0.0447 -16.75227,-0.38991 z"
-       id="path4148-8" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#000000;stroke-width:0.40125179"
-       d="m 27.63094,87.141695 c 0,-0.528107 -3.231328,-0.489437 61.792762,-0.739497 24.606788,-0.0946 54.428058,-0.282407 66.269468,-0.417277 14.92523,-0.16999 21.61017,-0.11526 21.7916,0.17826 0.15452,0.250047 -0.11771,0.425417 -0.66477,0.428207 -15.67352,0.0804 -43.52579,0.456327 -44.86502,0.605627 -0.99231,0.110707 -9.38788,0.198777 -18.65678,0.195877 -21.843659,-0.006 -47.916904,0.0456 -68.91499,0.13877 -12.456817,0.0552 -16.75227,-0.0447 -16.75227,-0.389907 z"
+       style="fill:#000000;stroke-width:0.51422638"
+       d="m 104.57588,25.427591 c 0.5281,0 0.48943,-5.307084 0.73949,101.487439 0.0946,40.41395 0.28241,89.39195 0.41728,108.8401 0.16999,24.51296 0.11526,35.4922 -0.17826,35.79018 -0.25005,0.25378 -0.42542,-0.19333 -0.42821,-1.09181 -0.0804,-25.74194 -0.45632,-71.48607 -0.60562,-73.6856 -0.11071,-1.62976 -0.19878,-15.41851 -0.19588,-30.64164 0.006,-35.87581 -0.0456,-78.698082 -0.13877,-113.185005 -0.0552,-20.45888 0.0447,-27.513664 0.38991,-27.513664 z"
        id="path4148" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#000000;stroke-width:0.40191561"
-       d="m 92.929206,154.01352 c -0.005,-0.34151 -4.62044,-0.47563 -17.58996,-0.51108 -9.67108,-0.0264 -20.74888,-0.11029 -24.61731,-0.18627 -3.86844,-0.076 -10.42468,-0.16251 -14.56944,-0.19227 -6.50183,-0.0466 -7.53592,-0.13929 -7.53592,-0.67447 0,-0.53875 0.62138,-0.58625 4.72251,-0.36099 13.05735,0.71724 96.601014,0.3768 133.868214,-0.5455 10.67377,-0.26415 12.85979,-0.13657 12.33047,0.71997 -0.11879,0.19217 -5.68409,0.37102 -12.36737,0.39744 -6.68326,0.0264 -13.23657,0.12563 -14.56288,0.22058 -3.66879,0.26251 -21.84947,0.54929 -35.56954,0.56106 -21.711014,0.0187 -23.483104,0.0606 -23.803274,0.56397 -0.22166,0.34845 -0.30093,0.35041 -0.3055,0.008 z"
-       id="path4446" />
-    <g
-       id="g14645"
-       transform="translate(0.52916663,2.6458334)">
+    <flowRoot
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot108"
+       xml:space="preserve"
+       transform="translate(-45.594196,-63.633513)"><flowRegion
+         id="flowRegion110"><rect
+           y="160.85446"
+           x="-73.539108"
+           height="34.186764"
+           width="107.99254"
+           id="rect112" /></flowRegion><flowPara
+         id="flowPara114" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot14715"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:'Abyssinica SIL';font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Abyssinica SIL';font-stretch:normal;font-variant:normal"><flowRegion
+         id="flowRegion14717"><rect
+           id="rect14719"
+           width="277.18585"
+           height="240.41631"
+           x="-1947.3721"
+           y="-216.74059" /></flowRegion><flowPara
+         id="flowPara14721" /></flowRoot>    <g
+       id="g215">
+      <rect
+         y="16"
+         x="12"
+         height="265"
+         width="90"
+         id="rect114"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00001931;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.00001932, 1.00001932;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
+      <path
+         id="path4148-8"
+         d="m 18.546803,222.4907 c 0,-0.52811 -1.67484,-0.48944 32.02788,-0.7395 12.75395,-0.0946 28.21066,-0.28241 34.3482,-0.41728 7.73591,-0.16999 11.2008,-0.11526 11.29483,0.17826 0.0801,0.25005 -0.061,0.42542 -0.34455,0.42821 -8.12377,0.0804 -22.55992,0.45633 -23.25406,0.60563 -0.51432,0.11071 -4.86584,0.19878 -9.67002,0.19588 -11.32179,-0.006 -24.83584,0.0456 -35.71939,0.13877 -6.45651,0.0552 -8.68289,-0.0447 -8.68289,-0.38991 z"
+         style="fill:#000000;stroke-width:0.28887662"
+         inkscape:connector-curvature="0" />
       <g
-         transform="translate(1.5875,65.352072)"
+         transform="translate(-46.689489,168.6446)"
          id="g6629">
         <text
            id="text1194-9"
            y="-40.981831"
-           x="89.234947"
+           x="90.828804"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.80587482px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55036718"
            xml:space="preserve"><tspan
              style="stroke-width:0.55036718"
              y="-40.981831"
-             x="89.234947"
+             x="90.828804"
              id="tspan1192-3"
              sodipodi:role="line">Voting</tspan></text>
       </g>
@@ -239,11 +261,11 @@
          xml:space="preserve"
          id="flowRoot967"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         transform="matrix(0.26458333,0,0,0.26458333,-112.92486,27.893291)"><flowRegion
+         transform="matrix(0.26458333,0,0,0.26458333,-125.38835,134.77825)"><flowRegion
            id="flowRegion969"><rect
              id="rect971"
-             width="585.54803"
-             height="213.16495"
+             width="321.64642"
+             height="362.61575"
              x="529.13385"
              y="0" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
@@ -251,30 +273,27 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
            id="flowPara1323">Players can then nominate them selves to run for witch finder general.</flowPara><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
-           id="flowPara985">All players not running for the position of Witchfinder General can then vote on their prefered candidate with a show of hands. </flowPara><flowPara
+           id="flowPara985">All players can then vote on their prefered candidate with a show of hands. </flowPara><flowPara
            id="flowPara1891"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'">A player can abstain from voting if they wish.</flowPara><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
            id="flowPara987" /><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
-           id="flowPara1325">The player with the most votes takes the WFG card.</flowPara><flowPara
+           id="flowPara1325">The player with the most votes takes the WFG card and is the new witchfinder  general.</flowPara><flowPara
            id="flowPara1893"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'">If the vote is a tie then a coin flip can be used to determine the winner.</flowPara><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
            id="flowPara989" /><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
-           id="flowPara991" /></flowRoot>    </g>
-    <g
-       id="g14893">
-      <flowRoot
+           id="flowPara991" /></flowRoot>      <flowRoot
          xml:space="preserve"
          id="flowRoot1001"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         transform="matrix(0.26458333,0,0,0.26458333,-181.59693,101.97661)"><flowRegion
+         transform="matrix(0.26458333,0,0,0.26458333,-194.38259,42.248634)"><flowRegion
            id="flowRegion1003"><rect
              id="rect1005"
-             width="568.3114"
-             height="226.20522"
+             width="322.99548"
+             height="292.47223"
              x="793.70081"
              y="0" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
@@ -298,31 +317,43 @@
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
            id="flowPara1027" /></flowRoot>      <g
          id="g6629-6"
-         transform="translate(0.03353087,144.26314)">
+         transform="translate(-45.560669,80.348314)">
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.80587482px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55036718"
-           x="79.709946"
+           x="78.120041"
            y="-45.215164"
            id="text1194-9-0"><tspan
              sodipodi:role="line"
              id="tspan1192-3-6"
-             x="79.709946"
+             x="78.120041"
              y="-45.215164"
              style="stroke-width:0.55036718">Interogation</tspan></text>
       </g>
+      <path
+         id="path4148-8-3"
+         d="m 16.91269,114.35849 c 0,-0.52811 -1.67484,-0.48944 32.02788,-0.7395 12.753951,-0.0946 28.210661,-0.28241 34.3482,-0.41728 7.73591,-0.16999 11.2008,-0.11526 11.29483,0.17826 0.0801,0.25005 -0.061,0.42542 -0.34455,0.42821 -8.12377,0.0804 -22.559918,0.45633 -23.254058,0.60563 -0.514321,0.11071 -4.865841,0.19878 -9.670021,0.19588 -11.32179,-0.006 -24.835841,0.0456 -35.719391,0.13877 -6.45651,0.0552 -8.68289,-0.0447 -8.68289,-0.38991 z"
+         style="fill:#000000;stroke-width:0.28887662"
+         inkscape:connector-curvature="0" />
     </g>
     <g
-       id="g14875">
+       id="g296">
+      <rect
+         y="16"
+         x="108"
+         height="265"
+         width="90"
+         id="rect114-6"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00001931;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:1.00001933, 1.00001933;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke markers fill" />
       <flowRoot
          xml:space="preserve"
          id="flowRoot1092"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         transform="matrix(0.26458333,0,0,0.26458333,-40.084934,49.419101)"><flowRegion
+         transform="matrix(0.26458333,0,0,0.26458333,38.18976,-76.116506)"><flowRegion
            id="flowRegion1094"><rect
              id="rect1096"
-             width="573.89398"
-             height="290.95303"
+             width="315.29953"
+             height="428.35818"
              x="264.56693"
              y="453.5433" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
@@ -350,102 +381,100 @@
            id="flowPara1881"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'">Once a player has been executed other players may then challenge the current WFG. In that case see the voting instructions.</flowPara></flowRoot>      <g
          id="g6629-6-2"
-         transform="translate(-0.87762866,210.51405)">
+         transform="translate(55.161083,81.977433)">
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.80587482px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55036718"
-           x="79.709946"
+           x="78.545296"
            y="-45.215164"
            id="text1194-9-0-6"><tspan
              sodipodi:role="line"
              id="tspan1192-3-6-1"
-             x="79.709946"
+             x="78.545296"
              y="-45.215164"
              style="stroke-width:0.55036718">Execution</tspan></text>
       </g>
-    </g>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot14715"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:'Abyssinica SIL';font-style:normal;font-weight:normal;font-size:16px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Abyssinica SIL';font-stretch:normal;font-variant:normal"><flowRegion
-         id="flowRegion14717"><rect
-           id="rect14719"
-           width="277.18585"
-           height="240.41631"
-           x="-1947.3721"
-           y="-216.74059" /></flowRegion><flowPara
-         id="flowPara14721"></flowPara></flowRoot>    <g
-       id="g14842">
       <flowRoot
          xml:space="preserve"
          id="flowRoot1126"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         transform="matrix(0.26458333,0,0,0.26458333,-112.10008,141.48848)"><flowRegion
+         transform="matrix(0.26458333,0,0,0.26458333,-31.702097,52.314752)"><flowRegion
            id="flowRegion1128"><rect
              id="rect1130"
-             width="559.00763"
-             height="114.93313"
+             width="319.8045"
+             height="193.30069"
              x="529.13385"
              y="453.5433" /></flowRegion><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
            id="flowPara1134">The game ends if either all the cultists or all the witches are executed.</flowPara><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
-           id="flowPara1385">If all the cultsits die then theymust reveal their cards.</flowPara><flowPara
+           id="flowPara1385">If all the cultsits die then they must reveal their cards.</flowPara><flowPara
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
            id="flowPara1138">If all the Witches Die they must reveal their cards</flowPara></flowRoot>      <g
          id="g6629-7"
-         transform="translate(-4.4353454,298.6761)">
+         transform="translate(45.128847,205.85562)">
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.80587482px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55036718"
-           x="83.248108"
+           x="82.730415"
            y="-40.607655"
            id="text1194-9-9"><tspan
              sodipodi:role="line"
              id="tspan1192-3-2"
-             x="83.248108"
+             x="82.730415"
              y="-40.607655"
              style="stroke-width:0.55036718">End of Game</tspan></text>
       </g>
-    </g>
-    <g
-       id="g14855">
       <g
-         id="g14831">
+         id="g14831"
+         transform="translate(66.062204,-77.846311)">
         <flowRoot
-           transform="matrix(0.26458333,0,0,0.26458333,-179.65404,199.80057)"
+           transform="matrix(0.26458333,0,0,0.26458333,-168.42872,203.16817)"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
            id="flowRoot1156"
            xml:space="preserve"><flowRegion
              id="flowRegion1158"><rect
                y="453.5433"
                x="793.70081"
-               height="102.07852"
-               width="619.13147"
+               height="124.84653"
+               width="320.0824"
                id="rect1160" /></flowRegion><flowPara
              id="flowPara1166"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'">only one election</flowPara><flowPara
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'"
-             id="flowPara1857">If a witch is elected the witches </flowPara><flowPara
              id="flowPara1393"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'">and cultists win. </flowPara><flowPara
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'">If a witch is elected the witches and cultists win. </flowPara><flowPara
              id="flowPara1395"
              style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Abyssinica SIL';-inkscape-font-specification:'Abyssinica SIL'">If a Witchfinder is elected the witchfinders win. </flowPara></flowRoot>      </g>
       <g
          id="g6629-7-0"
-         transform="translate(-30.336761,356.43261)">
+         transform="translate(44.049321,267.86258)">
         <text
            xml:space="preserve"
            style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.80587482px;line-height:1.25;font-family:BoereTudor;-inkscape-font-specification:BoereTudor;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.55036718"
-           x="83.248108"
+           x="83.576614"
            y="-40.607655"
            id="text1194-9-9-2"><tspan
              sodipodi:role="line"
-             id="tspan1192-3-2-3"
-             x="83.248108"
+             x="83.576614"
              y="-40.607655"
-             style="stroke-width:0.55036718">Variants and Extra Rules</tspan></text>
+             style="stroke-width:0.55036718"
+             id="tspan118">Variants and </tspan><tspan
+             sodipodi:role="line"
+             x="83.576614"
+             y="-29.600311"
+             style="stroke-width:0.55036718"
+             id="tspan122">Extra Rules</tspan></text>
       </g>
+      <path
+         id="path4148-8-3-6"
+         d="m 113.07627,150.23849 c 0,-0.52811 -1.67484,-0.48944 32.02788,-0.7395 12.75395,-0.0946 28.21066,-0.28241 34.3482,-0.41728 7.7359,-0.16999 11.20079,-0.11526 11.29482,0.17826 0.0801,0.25005 -0.061,0.42542 -0.34455,0.42821 -8.12376,0.0804 -22.55991,0.45633 -23.25405,0.60563 -0.51432,0.11071 -4.86584,0.19878 -9.67002,0.19588 -11.32179,-0.006 -24.83584,0.0456 -35.71939,0.13877 -6.45651,0.0552 -8.68289,-0.0447 -8.68289,-0.38991 z"
+         style="fill:#000000;stroke-width:0.28887662"
+         inkscape:connector-curvature="0" />
+      <path
+         id="path4148-8-3-7"
+         d="m 114.1988,212.31591 c 0,-0.52811 -1.67484,-0.48944 32.02787,-0.7395 12.75396,-0.0946 28.21067,-0.28241 34.34821,-0.41728 7.73591,-0.16999 11.20079,-0.11526 11.29482,0.17826 0.0801,0.25005 -0.061,0.42542 -0.34454,0.42821 -8.12378,0.0804 -22.55992,0.45633 -23.25406,0.60563 -0.51432,0.11071 -4.86584,0.19878 -9.67002,0.19588 -11.32179,-0.006 -24.83585,0.0456 -35.7194,0.13877 -6.4565,0.0552 -8.68288,-0.0447 -8.68288,-0.38991 z"
+         style="fill:#000000;stroke-width:0.28887662"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>
