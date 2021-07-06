@@ -11,12 +11,14 @@ fi
 IN_DIR="$(realpath $1)"
 TEMP="temp"
 
-declare -a PAGES=(  "witch_card.png witch_card.png witch_card.png witch_card.png witchfinder_general_card.png cultist_card.png cultist_card.png cultist_card.png cultist_card.png" 
-                    "witch_card.png cultist_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png" 
-                    "witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
-                    "ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
-                    "ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
-                )
+#declare -a PAGES=(  "witch_card.png witch_card.png witch_card.png witch_card.png witchfinder_general_card.png cultist_card.png cultist_card.png cultist_card.png cultist_card.png" 
+#                    "witch_card.png cultist_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png" 
+#                    "witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
+#                    "ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
+#                    "ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png ghost_card.png"
+#                )
+
+declare -a PAGES=("witch_card.png witch_card.png cultist_card.png cultist_card.png witchfinder_general_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png witchfinder_card.png")
 
 BACK="back_card.png" 
 
